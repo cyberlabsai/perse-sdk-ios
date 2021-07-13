@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C06E54825D1F09A00E6770F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5C06E54725D1F09A00E6770F /* Podfile */; };
+		5C0D7B592656C9CB00A24232 /* human2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5C0D7B572656C9CB00A24232 /* human2.jpeg */; };
+		5C0D7B5A2656C9CB00A24232 /* human.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5C0D7B582656C9CB00A24232 /* human.jpeg */; };
+		5C0D7B662656CAFB00A24232 /* human1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5C0D7B652656CAFB00A24232 /* human1.jpeg */; };
+		5C29525426543179008E35F7 /* dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5C29525326543179008E35F7 /* dog.jpeg */; };
+		5C29527E26543FEB008E35F7 /* FileUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C29527D26543FEB008E35F7 /* FileUtils.swift */; };
+		5C29528226544A7B008E35F7 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C29528126544A7B008E35F7 /* Environment.swift */; };
+		5C38E9FE265D5CB500922B91 /* PerseFaceDetectWithDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38E9FD265D5CB500922B91 /* PerseFaceDetectWithDataTests.swift */; };
+		5C38EA06265D601B00922B91 /* DataUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38EA05265D601B00922B91 /* DataUtils.swift */; };
+		5C38EA12265D69C300922B91 /* PerseFaceCompareWithDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38EA11265D69C300922B91 /* PerseFaceCompareWithDataTests.swift */; };
+		5C41242926554C8C00C02049 /* PerseUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C41242826554C8C00C02049 /* PerseUtils.swift */; };
+		5C412453265594DA00C02049 /* PerseFaceCompareWithFileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C412452265594DA00C02049 /* PerseFaceCompareWithFileTests.swift */; };
+		5C73AAD52681184E0028435B /* PerseCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C73AAD42681184E0028435B /* PerseCameraViewController.swift */; };
+		5CB416AB2652F08E00B7D1EC /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB416AA2652F08E00B7D1EC /* Environment.swift */; };
+		5CE123D8264AF36600D484A1 /* FileUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE123D7264AF36600D484A1 /* FileUtils.swift */; };
+		5CE123ED264B087800D484A1 /* PerseCompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE123EC264B087800D484A1 /* PerseCompareViewController.swift */; };
+		5CE1241C264C0F4E00D484A1 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1241B264C0F4E00D484A1 /* TableCell.swift */; };
+		5CF64E722653F546004763E3 /* PerseFaceDetectWithFileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF64E712653F546004763E3 /* PerseFaceDetectWithFileTests.swift */; };
+		6176EFC2252E496D00F4D4DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176EFC1252E496D00F4D4DD /* AppDelegate.swift */; };
+		6176EFC4252E496D00F4D4DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176EFC3252E496D00F4D4DD /* SceneDelegate.swift */; };
+		6176EFC9252E496D00F4D4DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6176EFC7252E496D00F4D4DD /* Main.storyboard */; };
+		6176EFCB252E496F00F4D4DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6176EFCA252E496F00F4D4DD /* Assets.xcassets */; };
+		6176EFCE252E496F00F4D4DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6176EFCC252E496F00F4D4DD /* LaunchScreen.storyboard */; };
+		6176EFDE252E4A9100F4D4DD /* PerseDetectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176EFDB252E4A9100F4D4DD /* PerseDetectViewController.swift */; };
+		CB08DC4E314F705886C8585D /* libPods-PerseDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 163746E2DA1238CB036C21C1 /* libPods-PerseDemo.a */; };
+		F629511A981ED124A33941AD /* libPods-PerseDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B856D093D20CA80090EB8F /* libPods-PerseDemoTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CF64E6C2653F51F004763E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6176EFB6252E496C00F4D4DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6176EFBD252E496D00F4D4DD;
+			remoteInfo = PerseDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D80037AE25E485B3771C05A /* Pods-PerseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemo.release.xcconfig"; path = "Target Support Files/Pods-PerseDemo/Pods-PerseDemo.release.xcconfig"; sourceTree = "<group>"; };
+		163746E2DA1238CB036C21C1 /* libPods-PerseDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PerseDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B856D093D20CA80090EB8F /* libPods-PerseDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PerseDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C06E54725D1F09A00E6770F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5C06E5A925D1FBC500E6770F /* Perse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Perse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0D7B572656C9CB00A24232 /* human2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = human2.jpeg; sourceTree = "<group>"; };
+		5C0D7B582656C9CB00A24232 /* human.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = human.jpeg; sourceTree = "<group>"; };
+		5C0D7B652656CAFB00A24232 /* human1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = human1.jpeg; sourceTree = "<group>"; };
+		5C29525326543179008E35F7 /* dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpeg; sourceTree = "<group>"; };
+		5C29527D26543FEB008E35F7 /* FileUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUtils.swift; sourceTree = "<group>"; };
+		5C29528126544A7B008E35F7 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		5C38E9FD265D5CB500922B91 /* PerseFaceDetectWithDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseFaceDetectWithDataTests.swift; sourceTree = "<group>"; };
+		5C38EA05265D601B00922B91 /* DataUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUtils.swift; sourceTree = "<group>"; };
+		5C38EA11265D69C300922B91 /* PerseFaceCompareWithDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseFaceCompareWithDataTests.swift; sourceTree = "<group>"; };
+		5C41242826554C8C00C02049 /* PerseUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseUtils.swift; sourceTree = "<group>"; };
+		5C412452265594DA00C02049 /* PerseFaceCompareWithFileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseFaceCompareWithFileTests.swift; sourceTree = "<group>"; };
+		5C73AAD42681184E0028435B /* PerseCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseCameraViewController.swift; sourceTree = "<group>"; };
+		5CB416AA2652F08E00B7D1EC /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		5CE123D7264AF36600D484A1 /* FileUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtils.swift; sourceTree = "<group>"; };
+		5CE123EC264B087800D484A1 /* PerseCompareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseCompareViewController.swift; sourceTree = "<group>"; };
+		5CE1241B264C0F4E00D484A1 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		5CF64E672653F51F004763E3 /* PerseDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerseDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF64E712653F546004763E3 /* PerseFaceDetectWithFileTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerseFaceDetectWithFileTests.swift; sourceTree = "<group>"; };
+		5CF64E732653F555004763E3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF6CD72269E1D85003F1572 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		6176EFBE252E496D00F4D4DD /* PerseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6176EFC1252E496D00F4D4DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6176EFC3252E496D00F4D4DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6176EFC8252E496D00F4D4DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6176EFCA252E496F00F4D4DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6176EFCD252E496F00F4D4DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6176EFCF252E496F00F4D4DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6176EFDB252E4A9100F4D4DD /* PerseDetectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerseDetectViewController.swift; sourceTree = "<group>"; };
+		BD273919E280A8E02F091FEE /* Pods-PerseDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-PerseDemoTests/Pods-PerseDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE7E6981A0A945C627C7CF43 /* Pods-PerseDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemoTests.release.xcconfig"; path = "Target Support Files/Pods-PerseDemoTests/Pods-PerseDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		FCB6CCF1C71A4FA482646CF2 /* Pods-PerseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemo.debug.xcconfig"; path = "Target Support Files/Pods-PerseDemo/Pods-PerseDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CF64E642653F51F004763E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F629511A981ED124A33941AD /* libPods-PerseDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6176EFBB252E496D00F4D4DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB08DC4E314F705886C8585D /* libPods-PerseDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C2952522654316E008E35F7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5C0D7B652656CAFB00A24232 /* human1.jpeg */,
+				5C0D7B582656C9CB00A24232 /* human.jpeg */,
+				5C0D7B572656C9CB00A24232 /* human2.jpeg */,
+				5C29525326543179008E35F7 /* dog.jpeg */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5CF64E682653F51F004763E3 /* PerseDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CF64E732653F555004763E3 /* Info.plist */,
+				5C2952522654316E008E35F7 /* Assets */,
+				5C412452265594DA00C02049 /* PerseFaceCompareWithFileTests.swift */,
+				5C38EA11265D69C300922B91 /* PerseFaceCompareWithDataTests.swift */,
+				5C41242826554C8C00C02049 /* PerseUtils.swift */,
+				5C29527D26543FEB008E35F7 /* FileUtils.swift */,
+				5C29528126544A7B008E35F7 /* Environment.swift */,
+				5C38E9FD265D5CB500922B91 /* PerseFaceDetectWithDataTests.swift */,
+				5CF64E712653F546004763E3 /* PerseFaceDetectWithFileTests.swift */,
+				5C38EA05265D601B00922B91 /* DataUtils.swift */,
+			);
+			path = PerseDemoTests;
+			sourceTree = "<group>";
+		};
+		6176EFB5252E496C00F4D4DD = {
+			isa = PBXGroup;
+			children = (
+				5CF6CD72269E1D85003F1572 /* Development.xcconfig */,
+				5C06E54725D1F09A00E6770F /* Podfile */,
+				6176EFC0252E496D00F4D4DD /* PerseDemo */,
+				5CF64E682653F51F004763E3 /* PerseDemoTests */,
+				6176EFBF252E496D00F4D4DD /* Products */,
+				E43515AC47E0279330A1606A /* Pods */,
+				FB60D56C12EF86C3A1E81C33 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6176EFBF252E496D00F4D4DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6176EFBE252E496D00F4D4DD /* PerseDemo.app */,
+				5CF64E672653F51F004763E3 /* PerseDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6176EFC0252E496D00F4D4DD /* PerseDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5CE123D7264AF36600D484A1 /* FileUtils.swift */,
+				6176EFDB252E4A9100F4D4DD /* PerseDetectViewController.swift */,
+				6176EFC1252E496D00F4D4DD /* AppDelegate.swift */,
+				6176EFC3252E496D00F4D4DD /* SceneDelegate.swift */,
+				6176EFC7252E496D00F4D4DD /* Main.storyboard */,
+				6176EFCA252E496F00F4D4DD /* Assets.xcassets */,
+				6176EFCC252E496F00F4D4DD /* LaunchScreen.storyboard */,
+				6176EFCF252E496F00F4D4DD /* Info.plist */,
+				5CE123EC264B087800D484A1 /* PerseCompareViewController.swift */,
+				5CE1241B264C0F4E00D484A1 /* TableCell.swift */,
+				5CB416AA2652F08E00B7D1EC /* Environment.swift */,
+				5C73AAD42681184E0028435B /* PerseCameraViewController.swift */,
+			);
+			path = PerseDemo;
+			sourceTree = "<group>";
+		};
+		E43515AC47E0279330A1606A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCB6CCF1C71A4FA482646CF2 /* Pods-PerseDemo.debug.xcconfig */,
+				0D80037AE25E485B3771C05A /* Pods-PerseDemo.release.xcconfig */,
+				BD273919E280A8E02F091FEE /* Pods-PerseDemoTests.debug.xcconfig */,
+				DE7E6981A0A945C627C7CF43 /* Pods-PerseDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB60D56C12EF86C3A1E81C33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C06E5A925D1FBC500E6770F /* Perse.framework */,
+				163746E2DA1238CB036C21C1 /* libPods-PerseDemo.a */,
+				42B856D093D20CA80090EB8F /* libPods-PerseDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CF64E662653F51F004763E3 /* PerseDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF64E702653F51F004763E3 /* Build configuration list for PBXNativeTarget "PerseDemoTests" */;
+			buildPhases = (
+				704296D726418C79B61DD3BC /* [CP] Check Pods Manifest.lock */,
+				5CF64E632653F51F004763E3 /* Sources */,
+				5CF64E642653F51F004763E3 /* Frameworks */,
+				5CF64E652653F51F004763E3 /* Resources */,
+				4A286A117B9038D1254B5F75 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CF64E6D2653F51F004763E3 /* PBXTargetDependency */,
+			);
+			name = PerseDemoTests;
+			productName = PerseDemoTests;
+			productReference = 5CF64E672653F51F004763E3 /* PerseDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6176EFBD252E496D00F4D4DD /* PerseDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6176EFD2252E496F00F4D4DD /* Build configuration list for PBXNativeTarget "PerseDemo" */;
+			buildPhases = (
+				1C474D128F7132572A6ED586 /* [CP] Check Pods Manifest.lock */,
+				6176EFBA252E496D00F4D4DD /* Sources */,
+				6176EFBB252E496D00F4D4DD /* Frameworks */,
+				6176EFBC252E496D00F4D4DD /* Resources */,
+				6FFB1CAF031F76012B90EF2B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerseDemo;
+			productName = PerseDemo;
+			productReference = 6176EFBE252E496D00F4D4DD /* PerseDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6176EFB6252E496C00F4D4DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					5CF64E662653F51F004763E3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6176EFBD252E496D00F4D4DD;
+					};
+					6176EFBD252E496D00F4D4DD = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 6176EFB9252E496C00F4D4DD /* Build configuration list for PBXProject "PerseDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6176EFB5252E496C00F4D4DD;
+			productRefGroup = 6176EFBF252E496D00F4D4DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6176EFBD252E496D00F4D4DD /* PerseDemo */,
+				5CF64E662653F51F004763E3 /* PerseDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CF64E652653F51F004763E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C29525426543179008E35F7 /* dog.jpeg in Resources */,
+				5C0D7B662656CAFB00A24232 /* human1.jpeg in Resources */,
+				5C0D7B592656C9CB00A24232 /* human2.jpeg in Resources */,
+				5C0D7B5A2656C9CB00A24232 /* human.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6176EFBC252E496D00F4D4DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6176EFCE252E496F00F4D4DD /* LaunchScreen.storyboard in Resources */,
+				6176EFCB252E496F00F4D4DD /* Assets.xcassets in Resources */,
+				5C06E54825D1F09A00E6770F /* Podfile in Resources */,
+				6176EFC9252E496D00F4D4DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C474D128F7132572A6ED586 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerseDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A286A117B9038D1254B5F75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PerseDemoTests/Pods-PerseDemoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PerseDemoTests/Pods-PerseDemoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PerseDemoTests/Pods-PerseDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FFB1CAF031F76012B90EF2B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PerseDemo/Pods-PerseDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PerseDemo/Pods-PerseDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PerseDemo/Pods-PerseDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		704296D726418C79B61DD3BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerseDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CF64E632653F51F004763E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF64E722653F546004763E3 /* PerseFaceDetectWithFileTests.swift in Sources */,
+				5C38E9FE265D5CB500922B91 /* PerseFaceDetectWithDataTests.swift in Sources */,
+				5C29528226544A7B008E35F7 /* Environment.swift in Sources */,
+				5C38EA06265D601B00922B91 /* DataUtils.swift in Sources */,
+				5C38EA12265D69C300922B91 /* PerseFaceCompareWithDataTests.swift in Sources */,
+				5C29527E26543FEB008E35F7 /* FileUtils.swift in Sources */,
+				5C412453265594DA00C02049 /* PerseFaceCompareWithFileTests.swift in Sources */,
+				5C41242926554C8C00C02049 /* PerseUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6176EFBA252E496D00F4D4DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6176EFC2252E496D00F4D4DD /* AppDelegate.swift in Sources */,
+				5C73AAD52681184E0028435B /* PerseCameraViewController.swift in Sources */,
+				5CE123ED264B087800D484A1 /* PerseCompareViewController.swift in Sources */,
+				6176EFC4252E496D00F4D4DD /* SceneDelegate.swift in Sources */,
+				5CB416AB2652F08E00B7D1EC /* Environment.swift in Sources */,
+				5CE1241C264C0F4E00D484A1 /* TableCell.swift in Sources */,
+				6176EFDE252E4A9100F4D4DD /* PerseDetectViewController.swift in Sources */,
+				5CE123D8264AF36600D484A1 /* FileUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CF64E6D2653F51F004763E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6176EFBD252E496D00F4D4DD /* PerseDemo */;
+			targetProxy = 5CF64E6C2653F51F004763E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6176EFC7252E496D00F4D4DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6176EFC8252E496D00F4D4DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6176EFCC252E496F00F4D4DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6176EFCD252E496F00F4D4DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CF64E6E2653F51F004763E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD273919E280A8E02F091FEE /* Pods-PerseDemoTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2B682PKZVS;
+				INFOPLIST_FILE = PerseDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoonit.handshake.PerseDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerseDemo.app/PerseDemo";
+			};
+			name = Debug;
+		};
+		5CF64E6F2653F51F004763E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7E6981A0A945C627C7CF43 /* Pods-PerseDemoTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2B682PKZVS;
+				INFOPLIST_FILE = PerseDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoonit.handshake.PerseDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerseDemo.app/PerseDemo";
+			};
+			name = Release;
+		};
+		6176EFD0252E496F00F4D4DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6176EFD1252E496F00F4D4DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6176EFD3252E496F00F4D4DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCB6CCF1C71A4FA482646CF2 /* Pods-PerseDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2B682PKZVS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YoonitCamera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Perse\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Perse/Perse.framework/Headers\"",
+				);
+				INFOPLIST_FILE = PerseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.cyberlabs.persedemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6176EFD4252E496F00F4D4DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D80037AE25E485B3771C05A /* Pods-PerseDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2B682PKZVS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YoonitCamera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Perse\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Perse/Perse.framework/Headers\"",
+				);
+				INFOPLIST_FILE = PerseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.cyberlabs.persedemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CF64E702653F51F004763E3 /* Build configuration list for PBXNativeTarget "PerseDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF64E6E2653F51F004763E3 /* Debug */,
+				5CF64E6F2653F51F004763E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6176EFB9252E496C00F4D4DD /* Build configuration list for PBXProject "PerseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6176EFD0252E496F00F4D4DD /* Debug */,
+				6176EFD1252E496F00F4D4DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6176EFD2252E496F00F4D4DD /* Build configuration list for PBXNativeTarget "PerseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6176EFD3252E496F00F4D4DD /* Debug */,
+				6176EFD4252E496F00F4D4DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6176EFB6252E496C00F4D4DD /* Project object */;
+}
