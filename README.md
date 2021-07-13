@@ -248,7 +248,6 @@ func compare(
 | Attribute  | Type            | Description
 | -          | -               | -
 | similarity | `Float`         | Similarity between faces. Closer to `1` is better.
-| imageTokens | `Array<String>` | The image tokens array.
 | timeTaken  | `Float`         | Time taken to analyze the image.
 
 #### DetectResponse
@@ -258,7 +257,6 @@ func compare(
 | totalFaces   | `Int`                               | Total of faces in the image.
 | faces        | `Array<FaceResponse>`               | Array of [FaceResponse](#faceresponse).
 | imageMetrics | [MetricsResponse](#metricsresponse) | Metrics of the detected image.
-| imageToken   | `String`                            | The image token.
 | timeTaken    | `Float`                             | Time taken to analyze the image.
 
 #### FaceResponse
@@ -266,7 +264,6 @@ func compare(
 | Attribute   | Type                                    | Description
 | -           | -                                       | -
 | landmarks   | [LandmarksResponse](#landmarksresponse) |  Detected face landmarks.
-| confidence  | `Int`                                     | Confidence that the face is a real face.
 | boundingBox | `Array<Int>`                            | Array with the four values of the face bounding box. The coordinates `x`, `y` and the dimension `width` and `height` respectively.
 | faceMetrics | [MetricsResponse](#metricsresponse)     | Metrics of the detecting face.
 | livenessScore | `Long`                                  | Confidence that a detected face is from a live person (1 means higher confidence).

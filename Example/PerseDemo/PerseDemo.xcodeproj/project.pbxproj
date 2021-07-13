@@ -49,7 +49,7 @@
 		0D80037AE25E485B3771C05A /* Pods-PerseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemo.release.xcconfig"; path = "Target Support Files/Pods-PerseDemo/Pods-PerseDemo.release.xcconfig"; sourceTree = "<group>"; };
 		163746E2DA1238CB036C21C1 /* libPods-PerseDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PerseDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B856D093D20CA80090EB8F /* libPods-PerseDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PerseDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C06E54725D1F09A00E6770F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5C06E54725D1F09A00E6770F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		5C06E5A925D1FBC500E6770F /* Perse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Perse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C0D7B572656C9CB00A24232 /* human2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = human2.jpeg; sourceTree = "<group>"; };
 		5C0D7B582656C9CB00A24232 /* human.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = human.jpeg; sourceTree = "<group>"; };
