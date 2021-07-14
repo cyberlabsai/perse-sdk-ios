@@ -22,7 +22,7 @@ public protocol PerseEventListener {
         _ headHorizontalMovement: HeadMovement,
         _ headTiltMovement: HeadMovement
     )
-    
+
     func onFaceUndetected()
 
     func onEndCapture()

@@ -1,5 +1,6 @@
 import XCTest
 import Perse
+import PerseLite
 import Foundation
 
 public func detectWithFile(
@@ -28,8 +29,8 @@ public func detectWithFile(
         expectation.fulfill()
         return
     } onError: {
-        error in
-        onError(error)
+        status, error in
+        onError(status)
         expectation.fulfill()
         return
     }
@@ -64,8 +65,8 @@ public func detectWithData(
         expectation.fulfill()
         return
     } onError: {
-        error in
-        onError(error)
+        status, error in
+        onError(status)
         expectation.fulfill()
         return
     }
@@ -110,8 +111,8 @@ public func compareWithFile(
         expectation.fulfill()
         return
     } onError: {
-        error in
-        onError(error)
+        status, error in
+        onError(status)
         expectation.fulfill()
         return
     }
@@ -156,8 +157,8 @@ public func compareWithData(
         expectation.fulfill()
         return
     } onError: {
-        error in
-        onError(error)
+        status, error in
+        onError(status)
         expectation.fulfill()
         return
     }

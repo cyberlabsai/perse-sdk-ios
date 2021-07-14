@@ -1,5 +1,6 @@
 import XCTest
 import Perse
+import PerseLite
 import Foundation
 
 class PerseFaceDetectWithDataTests: XCTestCase {
@@ -36,7 +37,7 @@ class PerseFaceDetectWithDataTests: XCTestCase {
         ) { detectResponse in
             XCTFail("Back-end authorized invalid api token.")
         } onError: { error in
-            XCTAssertEqual(error, "403")
+            XCTAssertEqual(error, "401")
         }
     }
         
