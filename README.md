@@ -30,6 +30,7 @@ For more details, you can see the [Official Perse](https://www.getperse.com/).
   * [Methods](#methods)
     * [face.detect](#face.detect)
     * [face.compare](#face.compare)
+    * [Perse Camera Methods](#perse-camera-methods)
   * [Events](#events)
     * [PerseEventListener](#perseeventlistener)
       * [Head Movement](#head-movement)
