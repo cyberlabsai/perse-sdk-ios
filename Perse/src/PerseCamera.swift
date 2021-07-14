@@ -93,7 +93,7 @@ open class PerseCamera: CameraView, CameraEventListenerDelegate {
                 }
                 return false
             }
-            var smilling: Bool {
+            var smiling: Bool {
                 if let smilingProbability = smilingProbability?.floatValue {
                     return smilingProbability > 0.8
                 }
@@ -106,7 +106,7 @@ open class PerseCamera: CameraView, CameraEventListenerDelegate {
                 height,
                 leftEye,
                 rightEye,
-                smilling,
+                smiling,
                 self.getVertical(headEulerAngleX),
                 self.getHorizontal(headEulerAngleY),
                 self.getTilt(headEulerAngleZ)

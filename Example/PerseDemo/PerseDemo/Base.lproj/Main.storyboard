@@ -386,7 +386,7 @@
                         <outlet property="leftEyeIcon" destination="JXt-H2-LPQ" id="iQO-X1-Bvx"/>
                         <outlet property="perseCamera" destination="R2Y-bi-PCo" id="gVH-lS-yuN"/>
                         <outlet property="rightEyeIcon" destination="CY9-uo-oyZ" id="CDJ-mn-DmU"/>
-                        <outlet property="smillingIcon" destination="fKV-Zg-GZN" id="ruD-8i-wBf"/>
+                        <outlet property="smilingIcon" destination="fKV-Zg-GZN" id="pTx-EY-bX7"/>
                         <outlet property="tiltMovementLabel" destination="tED-im-5jb" id="GLU-wo-NNP"/>
                         <outlet property="verticalMovementLabel" destination="wkd-lc-bKR" id="NV5-g4-1YT"/>
                     </connections>

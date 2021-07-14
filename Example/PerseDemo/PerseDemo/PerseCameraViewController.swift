@@ -1,7 +1,6 @@
 import UIKit
 import Perse
 import PerseLite
-import YoonitCamera
 
 class PerseCameraViewController:
     UIViewController,
@@ -12,7 +11,7 @@ class PerseCameraViewController:
     @IBOutlet var faceImageView: UIImageView!
     @IBOutlet var leftEyeIcon: UIImageView!
     @IBOutlet var rightEyeIcon: UIImageView!
-    @IBOutlet var smillingIcon: UIImageView!
+    @IBOutlet var smilingIcon: UIImageView!
     @IBOutlet var horizontalMovementLabel: UILabel!
     @IBOutlet var verticalMovementLabel: UILabel!
     @IBOutlet var tiltMovementLabel: UILabel!
@@ -20,8 +19,6 @@ class PerseCameraViewController:
     @IBOutlet var faceSharpnessIcon: UIImageView!
     @IBOutlet var imageUnderexposeIcon: UIImageView!
     @IBOutlet var imageSharpnessIcon: UIImageView!
-    
-    let perse = Perse(apiKey: Environment.apiKey)
     var image: UIImage?
         
     override func viewDidLoad() {
@@ -85,7 +82,7 @@ class PerseCameraViewController:
     ) {
         self.leftEyeIcon.validate(valid: leftEyeOpen)
         self.rightEyeIcon.validate(valid: rightEyeOpen)
-        self.smillingIcon.validate(valid: smiling)
+        self.smilingIcon.validate(valid: smiling)
             
         switch headVerticalMovement {
         case .VERTICAL_SUPER_UP:
@@ -188,7 +185,7 @@ class PerseCameraViewController:
                 
         self.leftEyeIcon.reset()
         self.rightEyeIcon.reset()
-        self.smillingIcon.reset()
+        self.smilingIcon.reset()
         self.horizontalMovementLabel.text = "-"
         self.verticalMovementLabel.text = "-"
         self.tiltMovementLabel.text = "-"
