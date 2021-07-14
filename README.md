@@ -13,6 +13,9 @@ The Perse CocoaPods SDK:
 
 For more details, you can see the [Official Perse](https://www.getperse.com/).
 
+> #### Just need the API and not the camera integration?
+> See the Perse [SDK Lite iOS](https://github.com/cyberlabsai/perse-sdk-lite-ios) version. 
+
 > #### Soon voice biometric verification.
 
 ## Content of Table
