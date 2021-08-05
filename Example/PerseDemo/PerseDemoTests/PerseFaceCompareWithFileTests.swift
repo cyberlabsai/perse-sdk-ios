@@ -13,7 +13,7 @@ class PerseFaceCompareWithFileTests: XCTestCase {
             apiKey: Environment.apiKey
         ) { response in
             XCTAssertEqual(response.status, 200)
-            XCTAssertGreaterThan(response.similarity, 70.0)
+            XCTAssertGreaterThan(response.similarity, response.defaultThresholds.similarity)
         } onError: { error in
             XCTFail("Error on compare: \(error)")
         }
@@ -27,7 +27,7 @@ class PerseFaceCompareWithFileTests: XCTestCase {
             apiKey: Environment.apiKey
         ) { response in
             XCTAssertEqual(response.status, 200)
-            XCTAssertLessThan(response.similarity, 80.0)
+            XCTAssertLessThan(response.similarity, response.defaultThresholds.similarity)
         } onError: { error in
             XCTFail("Error on compare: \(error)")
         }
