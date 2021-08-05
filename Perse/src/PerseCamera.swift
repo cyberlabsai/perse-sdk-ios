@@ -1,7 +1,19 @@
+/**
+ * +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ * Perse SDK iOS
+ * More About: https://www.getperse.com/
+ * From CyberLabs.AI: https://cyberlabs.ai/
+ * Haroldo Teruya @ Cyberlabs AI 2021
+ * +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ */
+
 import UIKit
 import YoonitCamera
 import PerseLite
 
+/**
+ CameraView component integrated with YoonitCamera and PerseLite.
+ */
 @objc
 open class PerseCamera: CameraView, CameraEventListenerDelegate {
         

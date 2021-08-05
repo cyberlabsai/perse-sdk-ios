@@ -1,3 +1,15 @@
+/**
+ * +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ * Perse SDK iOS
+ * More About: https://www.getperse.com/
+ * From CyberLabs.AI: https://cyberlabs.ai/
+ * Haroldo Teruya @ Cyberlabs AI 2021
+ * +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ */
+
+/**
+ Enum to represent the HeadMovement results.
+ */
 public enum HeadMovement {
     case UNDEFINED
     case VERTICAL_UP
