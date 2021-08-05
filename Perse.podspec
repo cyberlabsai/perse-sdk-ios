@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   spec.name         = "Perse"
-  spec.version      = "0.0.1"
+  spec.version      = "0.1.0"
   spec.summary      = "Perse SDK iOS"
   spec.description  = <<-DESC
     "This SDK provides camera integration and abstracts the communication with the Perse's API endpoints and also convert the response from json to a pre-defined responses."
