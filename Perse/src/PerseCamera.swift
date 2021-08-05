@@ -1,11 +1,23 @@
+/**
+ * +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ * Perse SDK iOS
+ * More About: https://www.getperse.com/
+ * From CyberLabs.AI: https://cyberlabs.ai/
+ * Haroldo Teruya @ Cyberlabs AI 2021
+ * +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ */
+
 import UIKit
 import YoonitCamera
 import PerseLite
 
+/**
+ CameraView component integrated with YoonitCamera and PerseLite.
+ */
 @objc
 open class PerseCamera: CameraView, CameraEventListenerDelegate {
         
-    public var apiKey: String? {
+    public var apiKey: String? = nil {
         didSet {
             if let apiKey = apiKey {
                 self.perseLite = PerseLite(apiKey: apiKey)
@@ -29,9 +41,13 @@ open class PerseCamera: CameraView, CameraEventListenerDelegate {
 
     private func configure() {
         self.cameraEventListener = self
-        self.setTimeBetweenImages(1000)
         self.startCaptureType("face")
         self.setSaveImageCaptured(true)
+        self.setTimeBetweenImages(1000)
+        self.detectionTopSize = 0.2
+        self.detectionRightSize = 0.2
+        self.detectionBottomSize = 0.2
+        self.detectionLeftSize = 0.2
     }
     
     public func onImageCaptured(
@@ -44,6 +60,20 @@ open class PerseCamera: CameraView, CameraEventListenerDelegate {
         _ sharpness: NSNumber?
     ) {
         if let perseEventListener = self.perseEventListener {
+            if self.apiKey == nil {
+                debugPrint(
+                    "PerseCamera",
+                    "No API Key set. To get a API Key: https://github.com/cyberlabsai/perse-sdk-ios/wiki/2.-API-Key."
+                )
+                perseEventListener.onImageCaptured(
+                    count,
+                    total,
+                    imagePath,
+                    nil
+                )
+                return
+            }
+            
             self.perseLite?.face.detect(imagePath) {
                 detectResponse in
                 
@@ -57,13 +87,6 @@ open class PerseCamera: CameraView, CameraEventListenerDelegate {
                 errorCode, message in
                 
                 self.onError(errorCode)
-                
-                perseEventListener.onImageCaptured(
-                    count,
-                    total,
-                    imagePath,
-                    nil
-                )
             }
         }
     }

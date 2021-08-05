@@ -133,12 +133,12 @@ class PerseDetectViewController:
                 }
                 self.tablecells.append(TableCell("Face Metrics \(i)"))
                 self.tablecells.append(TableCell(
-                    "Overexpose",
-                    face.faceMetrics.overexpose
+                    "Overexposure",
+                    face.faceMetrics.overexposure
                 ))
                 self.tablecells.append(TableCell(
-                    "Underexpose",
-                    face.faceMetrics.underexpose
+                    "Underexposure",
+                    face.faceMetrics.underexposure
                 ))
                 self.tablecells.append(TableCell(
                     "Sharpness",
@@ -147,12 +147,12 @@ class PerseDetectViewController:
             }
             self.tablecells.append(TableCell("Image Metrics"))
             self.tablecells.append(TableCell(
-                "Overexpose",
-                detectResponse.imageMetrics.overexpose
+                "Overexposure",
+                detectResponse.imageMetrics.overexposure
             ))
             self.tablecells.append(TableCell(
-                "Underexpose",
-                detectResponse.imageMetrics.underexpose
+                "Underexposure",
+                detectResponse.imageMetrics.underexposure
             ))
             self.tablecells.append(TableCell(
                 "Sharpness",

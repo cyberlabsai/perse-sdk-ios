@@ -70,7 +70,6 @@
 		5CF64E672653F51F004763E3 /* PerseDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerseDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF64E712653F546004763E3 /* PerseFaceDetectWithFileTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerseFaceDetectWithFileTests.swift; sourceTree = "<group>"; };
 		5CF64E732653F555004763E3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5CF6CD72269E1D85003F1572 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		6176EFBE252E496D00F4D4DD /* PerseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6176EFC1252E496D00F4D4DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6176EFC3252E496D00F4D4DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,7 +134,6 @@
 		6176EFB5252E496C00F4D4DD = {
 			isa = PBXGroup;
 			children = (
-				5CF6CD72269E1D85003F1572 /* Development.xcconfig */,
 				5C06E54725D1F09A00E6770F /* Podfile */,
 				6176EFC0252E496D00F4D4DD /* PerseDemo */,
 				5CF64E682653F51F004763E3 /* PerseDemoTests */,
@@ -165,9 +163,9 @@
 				6176EFCA252E496F00F4D4DD /* Assets.xcassets */,
 				6176EFCC252E496F00F4D4DD /* LaunchScreen.storyboard */,
 				6176EFCF252E496F00F4D4DD /* Info.plist */,
-				5CE123EC264B087800D484A1 /* PerseCompareViewController.swift */,
 				5CE1241B264C0F4E00D484A1 /* TableCell.swift */,
 				5CB416AA2652F08E00B7D1EC /* Environment.swift */,
+				5CE123EC264B087800D484A1 /* PerseCompareViewController.swift */,
 				5C73AAD42681184E0028435B /* PerseCameraViewController.swift */,
 			);
 			path = PerseDemo;
@@ -484,7 +482,6 @@
 		};
 		6176EFD0252E496F00F4D4DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CF6CD72269E1D85003F1572 /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -628,7 +625,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.1;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ai.cyberlabs.persedemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -661,7 +658,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.1;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ai.cyberlabs.persedemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

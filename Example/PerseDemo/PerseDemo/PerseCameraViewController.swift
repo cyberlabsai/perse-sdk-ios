@@ -50,6 +50,7 @@ class PerseCameraViewController:
         self.faceImageView.image = image
         
         guard let detectResponse = detectResponse else {
+            self.reset()
             return
         }
         
@@ -60,12 +61,12 @@ class PerseCameraViewController:
 
         self.faceImageView.image = image
         let face: FaceResponse = detectResponse.faces[0]
-
-        self.setSpoofingValidation(valid: face.livenessScore >= 0.7)
-        self.faceUnderexposeIcon.validate(valid: face.faceMetrics.underexpose > 0.7)
-        self.faceSharpnessIcon.validate(valid: face.faceMetrics.sharpness < 0.07)
-        self.imageUnderexposeIcon.validate(valid: detectResponse.imageMetrics.underexpose > 0.7)
-        self.imageSharpnessIcon.validate(valid: detectResponse.imageMetrics.sharpness < 0.07)
+        
+        self.setSpoofingValidation(valid: face.livenessScore >= detectResponse.defaultThresholds.liveness)
+        self.faceUnderexposeIcon.validate(valid: face.faceMetrics.underexposure > detectResponse.defaultThresholds.underexposure)
+        self.faceSharpnessIcon.validate(valid: face.faceMetrics.sharpness < detectResponse.defaultThresholds.sharpness)
+        self.imageUnderexposeIcon.validate(valid: detectResponse.imageMetrics.underexposure > detectResponse.defaultThresholds.underexposure)
+        self.imageSharpnessIcon.validate(valid: detectResponse.imageMetrics.sharpness < detectResponse.defaultThresholds.sharpness)
     }
     
     func onFaceDetected(
