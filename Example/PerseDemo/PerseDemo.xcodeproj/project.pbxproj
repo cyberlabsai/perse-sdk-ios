@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BCB86084333FA5413782255 /* libPods-PerseDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D29A424BBE7CCBA0A5C2B5 /* libPods-PerseDemoTests.a */; };
 		5C06E54825D1F09A00E6770F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5C06E54725D1F09A00E6770F /* Podfile */; };
 		5C0D7B592656C9CB00A24232 /* human2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5C0D7B572656C9CB00A24232 /* human2.jpeg */; };
 		5C0D7B5A2656C9CB00A24232 /* human.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5C0D7B582656C9CB00A24232 /* human.jpeg */; };
@@ -31,8 +32,7 @@
 		6176EFCB252E496F00F4D4DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6176EFCA252E496F00F4D4DD /* Assets.xcassets */; };
 		6176EFCE252E496F00F4D4DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6176EFCC252E496F00F4D4DD /* LaunchScreen.storyboard */; };
 		6176EFDE252E4A9100F4D4DD /* PerseDetectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176EFDB252E4A9100F4D4DD /* PerseDetectViewController.swift */; };
-		CB08DC4E314F705886C8585D /* libPods-PerseDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 163746E2DA1238CB036C21C1 /* libPods-PerseDemo.a */; };
-		F629511A981ED124A33941AD /* libPods-PerseDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B856D093D20CA80090EB8F /* libPods-PerseDemoTests.a */; };
+		E09979052B946FDEE970C19E /* libPods-PerseDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBB97A643E3B066971AFBEC /* libPods-PerseDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,9 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D80037AE25E485B3771C05A /* Pods-PerseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemo.release.xcconfig"; path = "Target Support Files/Pods-PerseDemo/Pods-PerseDemo.release.xcconfig"; sourceTree = "<group>"; };
-		163746E2DA1238CB036C21C1 /* libPods-PerseDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PerseDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		42B856D093D20CA80090EB8F /* libPods-PerseDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PerseDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CBB97A643E3B066971AFBEC /* libPods-PerseDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PerseDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		385AE6EC5ECF668DA435EF9C /* Pods-PerseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemo.release.xcconfig"; path = "Target Support Files/Pods-PerseDemo/Pods-PerseDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4A1E8197F858A9CA5D2B3EC5 /* Pods-PerseDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemoTests.release.xcconfig"; path = "Target Support Files/Pods-PerseDemoTests/Pods-PerseDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		5C06E54725D1F09A00E6770F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		5C06E5A925D1FBC500E6770F /* Perse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Perse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C0D7B572656C9CB00A24232 /* human2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = human2.jpeg; sourceTree = "<group>"; };
@@ -78,9 +78,9 @@
 		6176EFCD252E496F00F4D4DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6176EFCF252E496F00F4D4DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6176EFDB252E4A9100F4D4DD /* PerseDetectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerseDetectViewController.swift; sourceTree = "<group>"; };
-		BD273919E280A8E02F091FEE /* Pods-PerseDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-PerseDemoTests/Pods-PerseDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DE7E6981A0A945C627C7CF43 /* Pods-PerseDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemoTests.release.xcconfig"; path = "Target Support Files/Pods-PerseDemoTests/Pods-PerseDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		FCB6CCF1C71A4FA482646CF2 /* Pods-PerseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemo.debug.xcconfig"; path = "Target Support Files/Pods-PerseDemo/Pods-PerseDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		73D29A424BBE7CCBA0A5C2B5 /* libPods-PerseDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PerseDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD26D500117CC19394F1CA9 /* Pods-PerseDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-PerseDemoTests/Pods-PerseDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A18ABC2DA27AF94BFF4175F3 /* Pods-PerseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemo.debug.xcconfig"; path = "Target Support Files/Pods-PerseDemo/Pods-PerseDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F629511A981ED124A33941AD /* libPods-PerseDemoTests.a in Frameworks */,
+				0BCB86084333FA5413782255 /* libPods-PerseDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB08DC4E314F705886C8585D /* libPods-PerseDemo.a in Frameworks */,
+				E09979052B946FDEE970C19E /* libPods-PerseDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,10 +174,10 @@
 		E43515AC47E0279330A1606A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FCB6CCF1C71A4FA482646CF2 /* Pods-PerseDemo.debug.xcconfig */,
-				0D80037AE25E485B3771C05A /* Pods-PerseDemo.release.xcconfig */,
-				BD273919E280A8E02F091FEE /* Pods-PerseDemoTests.debug.xcconfig */,
-				DE7E6981A0A945C627C7CF43 /* Pods-PerseDemoTests.release.xcconfig */,
+				A18ABC2DA27AF94BFF4175F3 /* Pods-PerseDemo.debug.xcconfig */,
+				385AE6EC5ECF668DA435EF9C /* Pods-PerseDemo.release.xcconfig */,
+				8CD26D500117CC19394F1CA9 /* Pods-PerseDemoTests.debug.xcconfig */,
+				4A1E8197F858A9CA5D2B3EC5 /* Pods-PerseDemoTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -186,8 +186,8 @@
 			isa = PBXGroup;
 			children = (
 				5C06E5A925D1FBC500E6770F /* Perse.framework */,
-				163746E2DA1238CB036C21C1 /* libPods-PerseDemo.a */,
-				42B856D093D20CA80090EB8F /* libPods-PerseDemoTests.a */,
+				1CBB97A643E3B066971AFBEC /* libPods-PerseDemo.a */,
+				73D29A424BBE7CCBA0A5C2B5 /* libPods-PerseDemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -199,11 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CF64E702653F51F004763E3 /* Build configuration list for PBXNativeTarget "PerseDemoTests" */;
 			buildPhases = (
-				704296D726418C79B61DD3BC /* [CP] Check Pods Manifest.lock */,
+				528F8B536844877A653375ED /* [CP] Check Pods Manifest.lock */,
 				5CF64E632653F51F004763E3 /* Sources */,
 				5CF64E642653F51F004763E3 /* Frameworks */,
 				5CF64E652653F51F004763E3 /* Resources */,
-				4A286A117B9038D1254B5F75 /* [CP] Copy Pods Resources */,
+				A47D6E1DCE23CA5409969DB3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,11 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6176EFD2252E496F00F4D4DD /* Build configuration list for PBXNativeTarget "PerseDemo" */;
 			buildPhases = (
-				1C474D128F7132572A6ED586 /* [CP] Check Pods Manifest.lock */,
+				594C9117A0C58E067B175EF8 /* [CP] Check Pods Manifest.lock */,
 				6176EFBA252E496D00F4D4DD /* Sources */,
 				6176EFBB252E496D00F4D4DD /* Frameworks */,
 				6176EFBC252E496D00F4D4DD /* Resources */,
-				6FFB1CAF031F76012B90EF2B /* [CP] Copy Pods Resources */,
+				DA67A1B50B0019AE4A256998 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,7 +297,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1C474D128F7132572A6ED586 /* [CP] Check Pods Manifest.lock */ = {
+		528F8B536844877A653375ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerseDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		594C9117A0C58E067B175EF8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -319,7 +341,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4A286A117B9038D1254B5F75 /* [CP] Copy Pods Resources */ = {
+		A47D6E1DCE23CA5409969DB3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -336,7 +358,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PerseDemoTests/Pods-PerseDemoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6FFB1CAF031F76012B90EF2B /* [CP] Copy Pods Resources */ = {
+		DA67A1B50B0019AE4A256998 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -351,28 +373,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PerseDemo/Pods-PerseDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		704296D726418C79B61DD3BC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PerseDemoTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -440,7 +440,7 @@
 /* Begin XCBuildConfiguration section */
 		5CF64E6E2653F51F004763E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD273919E280A8E02F091FEE /* Pods-PerseDemoTests.debug.xcconfig */;
+			baseConfigurationReference = 8CD26D500117CC19394F1CA9 /* Pods-PerseDemoTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2B682PKZVS;
@@ -461,7 +461,7 @@
 		};
 		5CF64E6F2653F51F004763E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE7E6981A0A945C627C7CF43 /* Pods-PerseDemoTests.release.xcconfig */;
+			baseConfigurationReference = 4A1E8197F858A9CA5D2B3EC5 /* Pods-PerseDemoTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2B682PKZVS;
@@ -603,7 +603,7 @@
 		};
 		6176EFD3252E496F00F4D4DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCB6CCF1C71A4FA482646CF2 /* Pods-PerseDemo.debug.xcconfig */;
+			baseConfigurationReference = A18ABC2DA27AF94BFF4175F3 /* Pods-PerseDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -625,7 +625,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 0.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = ai.cyberlabs.persedemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -636,7 +636,7 @@
 		};
 		6176EFD4252E496F00F4D4DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D80037AE25E485B3771C05A /* Pods-PerseDemo.release.xcconfig */;
+			baseConfigurationReference = 385AE6EC5ECF668DA435EF9C /* Pods-PerseDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -658,7 +658,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 0.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = ai.cyberlabs.persedemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

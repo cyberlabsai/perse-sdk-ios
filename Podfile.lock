@@ -65,7 +65,7 @@ PODS:
     - GoogleMLKit/FaceDetection
 
 DEPENDENCIES:
-  - PerseLite
+  - PerseLite (~> 0.2.0)
   - YoonitCamera
 
 SPEC REPOS:
@@ -107,6 +107,6 @@ SPEC CHECKSUMS:
   YoonitCamera: eacfd2924f0838f895e6617fcf668e52ada4717f
   YoonitFacefy: 2a583328b5cfd74a2bea98e416038091a8b1ec55
 
-PODFILE CHECKSUM: b568eb368795dd46890cd23eb2cec793ec38fdde
+PODFILE CHECKSUM: 9ace3a09aead93f680a1515667334bb5b5398e55
 
 COCOAPODS: 1.10.1
