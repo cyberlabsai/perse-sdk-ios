@@ -9,7 +9,11 @@ class PerseDetectViewController:
     UITableViewDelegate,
     UITableViewDataSource
 {
-    let perse = Perse(apiKey: Environment.apiKey)
+    let perse = Perse(
+        apiKey: Environment.apiKey,
+        baseUrl: Environment.baseUrl
+    )
+    
     @IBOutlet var tableView: UITableView!
     @IBOutlet weak var imageView: UIImageView!
     

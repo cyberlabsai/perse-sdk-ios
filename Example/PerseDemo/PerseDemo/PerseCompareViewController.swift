@@ -8,7 +8,11 @@ class PerseCompareViewController:
     UITableViewDelegate,
     UITableViewDataSource
 {
-    let perse = Perse(apiKey: Environment.apiKey)
+    let perse = Perse(
+        apiKey: Environment.apiKey,
+        baseUrl: Environment.baseUrl
+    )
+    
     @IBOutlet weak var firstImageView: UIImageView!
     @IBOutlet weak var secondImageView: UIImageView!
     @IBOutlet var tableView: UITableView!
