@@ -63,6 +63,7 @@
 		5C41242826554C8C00C02049 /* PerseUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseUtils.swift; sourceTree = "<group>"; };
 		5C412452265594DA00C02049 /* PerseFaceCompareWithFileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseFaceCompareWithFileTests.swift; sourceTree = "<group>"; };
 		5C73AAD42681184E0028435B /* PerseCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseCameraViewController.swift; sourceTree = "<group>"; };
+		5C97A92A26CAE6CF00068625 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		5CB416AA2652F08E00B7D1EC /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		5CE123D7264AF36600D484A1 /* FileUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtils.swift; sourceTree = "<group>"; };
 		5CE123EC264B087800D484A1 /* PerseCompareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseCompareViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +135,7 @@
 		6176EFB5252E496C00F4D4DD = {
 			isa = PBXGroup;
 			children = (
+				5C97A92A26CAE6CF00068625 /* Development.xcconfig */,
 				5C06E54725D1F09A00E6770F /* Podfile */,
 				6176EFC0252E496D00F4D4DD /* PerseDemo */,
 				5CF64E682653F51F004763E3 /* PerseDemoTests */,
@@ -482,6 +484,7 @@
 		};
 		6176EFD0252E496F00F4D4DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C97A92A26CAE6CF00068625 /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -625,7 +628,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.1;
+				MARKETING_VERSION = 0.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = ai.cyberlabs.persedemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -658,7 +661,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.1;
+				MARKETING_VERSION = 0.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = ai.cyberlabs.persedemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

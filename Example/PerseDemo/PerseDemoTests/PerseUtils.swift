@@ -20,7 +20,7 @@ public func detectWithFile(
     }
             
     // Start the face detect process.
-    Perse(apiKey: apiKey)
+    Perse(apiKey: apiKey, baseUrl: Environment.baseUrl)
         .face
         .detect(tempFilePath)
     {
@@ -56,7 +56,7 @@ public func detectWithData(
     }
             
     // Start the face detect process.
-    Perse(apiKey: apiKey)
+    Perse(apiKey: apiKey, baseUrl: Environment.baseUrl)
         .face
         .detect(data)
     {
@@ -100,7 +100,7 @@ public func compareWithFile(
     }
             
     // Start the face detect process.
-    Perse(apiKey: apiKey)
+    Perse(apiKey: apiKey, baseUrl: Environment.baseUrl)
         .face
         .compare(
             firstTempFilePath,
@@ -146,7 +146,7 @@ public func compareWithData(
     }
             
     // Start the face detect process.
-    Perse(apiKey: apiKey)
+    Perse(apiKey: apiKey, baseUrl: Environment.baseUrl)
         .face
         .compare(
             firstData,
