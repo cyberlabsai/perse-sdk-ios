@@ -3,9 +3,9 @@ import Perse
 import PerseLite
 import Foundation
 
-class PerseFaceCompareWithFileTests: XCTestCase {
-    
-    func testWithSameHuman() {
+class FaceCompareWithFileTests: XCTestCase {
+
+    func test_with_same_human() {
         compareWithFile(
             self,
             firstImageName: "human",
@@ -13,13 +13,16 @@ class PerseFaceCompareWithFileTests: XCTestCase {
             apiKey: Environment.apiKey
         ) { response in
             XCTAssertEqual(response.status, 200)
-            XCTAssertGreaterThan(response.similarity, response.defaultThresholds.similarity)
+            XCTAssertGreaterThan(
+                response.similarity,
+                response.defaultThresholds.similarity
+            )
         } onError: { error in
             XCTFail("Error on compare: \(error)")
         }
     }
-    
-    func testWithDifferentHumans() {
+
+    func test_with_different_humans() {
         compareWithFile(
             self,
             firstImageName: "human1",
@@ -27,13 +30,16 @@ class PerseFaceCompareWithFileTests: XCTestCase {
             apiKey: Environment.apiKey
         ) { response in
             XCTAssertEqual(response.status, 200)
-            XCTAssertLessThan(response.similarity, response.defaultThresholds.similarity)
+            XCTAssertLessThan(
+                response.similarity,
+                response.defaultThresholds.similarity
+            )
         } onError: { error in
             XCTFail("Error on compare: \(error)")
         }
     }
-    
-    func testWithHumanAndNonHuman() {
+
+    func test_with_human_and_non_human() {
         compareWithFile(
             self,
             firstImageName: "human",
@@ -45,8 +51,8 @@ class PerseFaceCompareWithFileTests: XCTestCase {
             XCTAssertEqual(error, "402")
         }
     }
-    
-    func testWithNonHumanAndHuman() {
+
+    func test_with_non_human_and_human() {
         compareWithFile(
             self,
             firstImageName: "dog",
@@ -58,8 +64,8 @@ class PerseFaceCompareWithFileTests: XCTestCase {
             XCTAssertEqual(error, "402")
         }
     }
-    
-    func testWithNonHumanAndNonHuman() {
+
+    func test_with_non_human_and_non_human() {
         compareWithFile(
             self,
             firstImageName: "dog",
@@ -71,21 +77,8 @@ class PerseFaceCompareWithFileTests: XCTestCase {
             XCTAssertEqual(error, "402")
         }
     }
-    
-    func testWithAPIKeyInvalid() {
-        compareWithFile(
-            self,
-            firstImageName: "human",
-            secondImageName: "human2",
-            apiKey: ""
-        ) { detectResponse in
-            XCTFail("Back-end authorized invalid api token.")
-        } onError: { error in
-            XCTAssertEqual(error, "401")
-        }
-    }
-        
-    func testWithImagePathsInvalid() {
+
+    func test_with_image_paths_invalid() {
         compareWithFile(
             self,
             firstImageName: "test0",
@@ -94,11 +87,14 @@ class PerseFaceCompareWithFileTests: XCTestCase {
         ) { detectResponse in
             XCTFail("")
         } onError: { error in
-            XCTAssertEqual(error, Perse.Error.INVALID_IMAGE_PATH)
+            XCTAssertEqual(
+                error,
+                PerseLite.Error.INVALID_IMAGE_PATH
+            )
         }
     }
-    
-    func testWithNonHumans() {
+
+    func test_with_non_humans() {
         compareWithFile(
             self,
             firstImageName: "dog",
@@ -110,5 +106,5 @@ class PerseFaceCompareWithFileTests: XCTestCase {
             XCTAssertEqual(error, "402")
         }
     }
-    
+
 }
