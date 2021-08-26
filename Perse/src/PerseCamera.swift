@@ -12,22 +12,13 @@ import YoonitCamera
 import PerseLite
 
 /**
- CameraView component integrated with YoonitCamera and PerseLite.
+ CameraView component integrated with YoonitCamera and Perse.
  */
 @objc
 open class PerseCamera: CameraView, CameraEventListenerDelegate {
         
-    public var apiKey: String? = nil {
-        didSet {
-            if let apiKey = apiKey {
-                self.perseLite = PerseLite(apiKey: apiKey)
-            }
-        }
-    }
-        
     public var perseEventListener: PerseEventListener?
-    static var url: String = "https://api.stg.getperse.com/v0/"
-    public var perseLite: PerseLite?
+    public var perse: Perse?
 
     required public init?(coder: NSCoder) {
         super.init(coder: coder)
@@ -60,7 +51,7 @@ open class PerseCamera: CameraView, CameraEventListenerDelegate {
         _ sharpness: NSNumber?
     ) {
         if let perseEventListener = self.perseEventListener {
-            if self.apiKey == nil {
+            if self.perse == nil {
                 debugPrint(
                     "PerseCamera",
                     "No API Key set. To get a API Key: https://github.com/cyberlabsai/perse-sdk-ios/wiki/2.-API-Key."
@@ -74,7 +65,7 @@ open class PerseCamera: CameraView, CameraEventListenerDelegate {
                 return
             }
             
-            self.perseLite?.face.detect(imagePath) {
+            self.perse?.face.detect(imagePath) {
                 detectResponse in
                 
                 perseEventListener.onImageCaptured(

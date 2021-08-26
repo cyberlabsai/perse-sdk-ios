@@ -25,8 +25,11 @@ class PerseCameraViewController:
         super.viewDidLoad()
                                            
         self.reset()
-        
-        self.perseCamera.apiKey = Environment.apiKey
+                
+        self.perseCamera.perse = Perse(
+            apiKey: Environment.apiKey,
+            baseUrl: Environment.baseUrl
+        )
         self.perseCamera.perseEventListener = self
         self.perseCamera.startPreview()
         self.perseCamera.setDetectionBox(true)
@@ -37,7 +40,7 @@ class PerseCameraViewController:
         _ count: Int,
         _ total: Int,
         _ imagePath: String,
-        _ detectResponse: DetectResponse?
+        _ detectResponse: PerseAPIResponse.Face.Detect?
     ) {
         let subpath = imagePath
             .substring(
@@ -60,7 +63,7 @@ class PerseCameraViewController:
         }
 
         self.faceImageView.image = image
-        let face: FaceResponse = detectResponse.faces[0]
+        let face: PerseAPIResponse.Face.Face = detectResponse.faces[0]
         
         self.setSpoofingValidation(valid: face.livenessScore >= detectResponse.defaultThresholds.liveness)
         self.faceUnderexposeIcon.validate(valid: face.faceMetrics.underexposure > detectResponse.defaultThresholds.underexposure)
