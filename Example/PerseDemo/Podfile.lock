@@ -4,11 +4,11 @@ PODS:
     - GoogleUtilities/Environment (~> 7.2)
     - nanopb (~> 2.30908.0)
     - PromisesObjC (< 3.0, >= 1.2)
-  - GoogleMLKit/FaceDetection (2.2.0):
+  - GoogleMLKit/FaceDetection (2.3.0):
     - GoogleMLKit/MLKitCore
     - MLKitFaceDetection (~> 1.3.0)
-  - GoogleMLKit/MLKitCore (2.2.0):
-    - MLKitCommon (~> 3.0.0)
+  - GoogleMLKit/MLKitCore (2.3.0):
+    - MLKitCommon (~> 3.1.0)
   - GoogleToolboxForMac/DebugUtils (2.3.2):
     - GoogleToolboxForMac/Defines (= 2.3.2)
   - GoogleToolboxForMac/Defines (2.3.2)
@@ -21,17 +21,17 @@ PODS:
     - GoogleToolboxForMac/Defines (= 2.3.2)
     - "GoogleToolboxForMac/NSString+URLArguments (= 2.3.2)"
   - "GoogleToolboxForMac/NSString+URLArguments (2.3.2)"
-  - GoogleUtilities/Environment (7.5.0):
+  - GoogleUtilities/Environment (7.5.1):
     - PromisesObjC (< 3.0, >= 1.2)
-  - GoogleUtilities/Logger (7.5.0):
+  - GoogleUtilities/Logger (7.5.1):
     - GoogleUtilities/Environment
-  - GoogleUtilities/UserDefaults (7.5.0):
+  - GoogleUtilities/UserDefaults (7.5.1):
     - GoogleUtilities/Logger
   - GoogleUtilitiesComponents (1.0.0):
     - GoogleUtilities/Logger
   - GTMSessionFetcher/Core (1.6.1)
   - MLImage (1.0.0-beta1)
-  - MLKitCommon (3.0.0):
+  - MLKitCommon (3.1.0):
     - GoogleDataTransport (~> 9.0)
     - GoogleToolboxForMac/Logger (~> 2.1)
     - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
@@ -55,11 +55,11 @@ PODS:
     - nanopb/encode (= 2.30908.0)
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
-  - Perse (0.1.0):
+  - Perse (0.2.0):
     - Alamofire (~> 5.2)
     - PerseLite (~> 0.2.0)
     - YoonitCamera
-  - PerseLite (0.2.0):
+  - PerseLite (0.2.1):
     - Alamofire (~> 5.2)
   - PromisesObjC (2.0.0)
   - Protobuf (3.17.0)
@@ -98,23 +98,23 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
   GoogleDataTransport: 85fd18ff3019bb85d3f2c551d04c481dedf71fc9
-  GoogleMLKit: 85ffdc9641d05311c76dbba5bbf93059087be12f
+  GoogleMLKit: 53d5adbee0fe5a701e970f1387d2cfececd5bc50
   GoogleToolboxForMac: 8bef7c7c5cf7291c687cf5354f39f9db6399ad34
-  GoogleUtilities: eea970f4a389963963bffe8d8fabe43540678b9c
+  GoogleUtilities: 3df19e3c24f7bbc291d8b5809aa6b0d41e642437
   GoogleUtilitiesComponents: a69c0b3b369ba443e988141e75ef49d9010b1c80
   GTMSessionFetcher: 36689134877faeb055b27dfa4ccc9ceaa42e029e
   MLImage: 647f3d580c10b3c9a3f6154f5d7baead60c42a0c
-  MLKitCommon: 6d6be0a2e9a6340aad1c1f2b9449c11dee8af70f
+  MLKitCommon: 1b5c79d52f79d9cc93ab5300e9713c4c215121ea
   MLKitFaceDetection: 897f007aa4eb426ef1bac7c66e5451d02ffc2e83
   MLKitVision: 26da299aef93291f24f5200e8372919f73abf3b5
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
-  Perse: c7a90b8843d745ef827213e0cc1717a7e5604c91
-  PerseLite: 2287a9aebcc03672f5615c35a1ae0c1de3836a15
+  Perse: cdf0193ad6269bffd77343fc517ffbbd5c6dfbad
+  PerseLite: 2de2ecd713a7010a876b2648a109b3b0188ae54b
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
   Protobuf: 7327d4444215b5f18e560a97f879ff5503c4581c
   YoonitCamera: eacfd2924f0838f895e6617fcf668e52ada4717f
   YoonitFacefy: 2a583328b5cfd74a2bea98e416038091a8b1ec55
 
-PODFILE CHECKSUM: 0b2c9991c223ae5db48490edf6a5b626ab40b8aa
+PODFILE CHECKSUM: 7a42e7e3935ee42e8ea15b82499ad25a0a57b28b
 
 COCOAPODS: 1.10.1

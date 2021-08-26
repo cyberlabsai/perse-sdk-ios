@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1034214408861265D314CA50 /* Pods_Perse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1662896A8F60C015743C9E8F /* Pods_Perse.framework */; };
 		5C03EE82269C8D7800143FE1 /* Perse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03EE81269C8D7800143FE1 /* Perse.swift */; };
 		5C06E5CF25D1FED400E6770F /* PerseCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C06E5CE25D1FED400E6770F /* PerseCamera.swift */; };
 		5C2FFC07266E5715000DD190 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5C2FFC06266E5715000DD190 /* README.md */; };
@@ -22,11 +21,12 @@
 		5CCC92E826BC30C30016CCB3 /* testing_with_xcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CCC92E526BC30C30016CCB3 /* testing_with_xcode.png */; };
 		5CCC93BC26BC3C190016CCB3 /* anti_spoof.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5CCC93BB26BC3C190016CCB3 /* anti_spoof.gif */; };
 		6176EFA8252E476000F4D4DD /* Example in Resources */ = {isa = PBXBuildFile; fileRef = 6176EFA7252E476000F4D4DD /* Example */; };
+		F0DBE3230F3127C8A30A3B9A /* libPods-Perse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 541F630D6EC3DD39296F3D9F /* libPods-Perse.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1662896A8F60C015743C9E8F /* Pods_Perse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Perse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C42C24943CE9C527251E2AA /* Pods-Perse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Perse.release.xcconfig"; path = "Target Support Files/Pods-Perse/Pods-Perse.release.xcconfig"; sourceTree = "<group>"; };
+		541F630D6EC3DD39296F3D9F /* libPods-Perse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Perse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C03EE81269C8D7800143FE1 /* Perse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perse.swift; sourceTree = "<group>"; };
 		5C06E5CE25D1FED400E6770F /* PerseCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseCamera.swift; sourceTree = "<group>"; };
 		5C2FFC06266E5715000DD190 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1034214408861265D314CA50 /* Pods_Perse.framework in Frameworks */,
+				F0DBE3230F3127C8A30A3B9A /* libPods-Perse.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +142,7 @@
 				5C65788725D32FB2001171F8 /* libnanopb.a */,
 				5C65788B25D32FB2001171F8 /* libPromisesObjC.a */,
 				5C65788D25D32FB2001171F8 /* libProtobuf.a */,
-				1662896A8F60C015743C9E8F /* Pods_Perse.framework */,
+				541F630D6EC3DD39296F3D9F /* libPods-Perse.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -430,7 +430,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.2;
+				MARKETING_VERSION = 0.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ai.cyberlabs.perse;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
