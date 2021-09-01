@@ -171,7 +171,7 @@ public func faceCreate(
     _ xctest: XCTestCase,
     imageName: String,
     apiKey: String,
-    onSuccess: @escaping (PerseAPIResponse.Enrollment.Face.Create) -> Void,
+    onSuccess: @escaping (PerseAPIResponse.Face.Enrollment.Create) -> Void,
     onError: @escaping (String) -> Void
 ) {
     let expectation = XCTestExpectation(description: "Perse face create.")
@@ -210,7 +210,7 @@ public func faceCreate(
 public func faceRead(
     _ xctest: XCTestCase,
     apiKey: String,
-    onSuccess: @escaping (PerseAPIResponse.Enrollment.Face.Read) -> Void,
+    onSuccess: @escaping (PerseAPIResponse.Face.Enrollment.Read) -> Void,
     onError: @escaping (String) -> Void
 ) {
     let expectation = XCTestExpectation(description: "Perse face read.")
@@ -240,7 +240,7 @@ public func faceDelete(
     _ xctest: XCTestCase,
     userToken: String,
     apiKey: String,
-    onSuccess: @escaping (PerseAPIResponse.Enrollment.Face.Delete) -> Void,
+    onSuccess: @escaping (PerseAPIResponse.Face.Enrollment.Delete) -> Void,
     onError: @escaping (String) -> Void
 ) {
     let expectation = XCTestExpectation(description: "Perse face delete.")
