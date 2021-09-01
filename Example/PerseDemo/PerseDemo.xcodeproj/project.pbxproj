@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BCB86084333FA5413782255 /* libPods-PerseDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D29A424BBE7CCBA0A5C2B5 /* libPods-PerseDemoTests.a */; };
+		5607017B91207F0E0D0D4CE9 /* libPods-PerseDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B2A8C6A6E8EADA1C2CEA30 /* libPods-PerseDemo.a */; };
 		5C06E54825D1F09A00E6770F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5C06E54725D1F09A00E6770F /* Podfile */; };
 		5C0D7B592656C9CB00A24232 /* human2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5C0D7B572656C9CB00A24232 /* human2.jpeg */; };
 		5C0D7B5A2656C9CB00A24232 /* human.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5C0D7B582656C9CB00A24232 /* human.jpeg */; };
@@ -15,24 +15,25 @@
 		5C29525426543179008E35F7 /* dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5C29525326543179008E35F7 /* dog.jpeg */; };
 		5C29527E26543FEB008E35F7 /* FileUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C29527D26543FEB008E35F7 /* FileUtils.swift */; };
 		5C29528226544A7B008E35F7 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C29528126544A7B008E35F7 /* Environment.swift */; };
-		5C38E9FE265D5CB500922B91 /* PerseFaceDetectWithDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38E9FD265D5CB500922B91 /* PerseFaceDetectWithDataTests.swift */; };
+		5C38E9FE265D5CB500922B91 /* FaceDetectWithDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38E9FD265D5CB500922B91 /* FaceDetectWithDataTests.swift */; };
 		5C38EA06265D601B00922B91 /* DataUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38EA05265D601B00922B91 /* DataUtils.swift */; };
-		5C38EA12265D69C300922B91 /* PerseFaceCompareWithDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38EA11265D69C300922B91 /* PerseFaceCompareWithDataTests.swift */; };
+		5C38EA12265D69C300922B91 /* FaceCompareWithDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38EA11265D69C300922B91 /* FaceCompareWithDataTests.swift */; };
 		5C41242926554C8C00C02049 /* PerseUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C41242826554C8C00C02049 /* PerseUtils.swift */; };
-		5C412453265594DA00C02049 /* PerseFaceCompareWithFileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C412452265594DA00C02049 /* PerseFaceCompareWithFileTests.swift */; };
+		5C412453265594DA00C02049 /* FaceCompareWithFileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C412452265594DA00C02049 /* FaceCompareWithFileTests.swift */; };
 		5C73AAD52681184E0028435B /* PerseCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C73AAD42681184E0028435B /* PerseCameraViewController.swift */; };
 		5CB416AB2652F08E00B7D1EC /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB416AA2652F08E00B7D1EC /* Environment.swift */; };
+		5CD60F1126D80D6400F4D995 /* FaceEnrollmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD60F1026D80D6300F4D995 /* FaceEnrollmentTests.swift */; };
 		5CE123D8264AF36600D484A1 /* FileUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE123D7264AF36600D484A1 /* FileUtils.swift */; };
 		5CE123ED264B087800D484A1 /* PerseCompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE123EC264B087800D484A1 /* PerseCompareViewController.swift */; };
 		5CE1241C264C0F4E00D484A1 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1241B264C0F4E00D484A1 /* TableCell.swift */; };
-		5CF64E722653F546004763E3 /* PerseFaceDetectWithFileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF64E712653F546004763E3 /* PerseFaceDetectWithFileTests.swift */; };
+		5CF64E722653F546004763E3 /* FaceDetectWithFileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF64E712653F546004763E3 /* FaceDetectWithFileTests.swift */; };
 		6176EFC2252E496D00F4D4DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176EFC1252E496D00F4D4DD /* AppDelegate.swift */; };
 		6176EFC4252E496D00F4D4DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176EFC3252E496D00F4D4DD /* SceneDelegate.swift */; };
 		6176EFC9252E496D00F4D4DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6176EFC7252E496D00F4D4DD /* Main.storyboard */; };
 		6176EFCB252E496F00F4D4DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6176EFCA252E496F00F4D4DD /* Assets.xcassets */; };
 		6176EFCE252E496F00F4D4DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6176EFCC252E496F00F4D4DD /* LaunchScreen.storyboard */; };
 		6176EFDE252E4A9100F4D4DD /* PerseDetectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176EFDB252E4A9100F4D4DD /* PerseDetectViewController.swift */; };
-		E09979052B946FDEE970C19E /* libPods-PerseDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBB97A643E3B066971AFBEC /* libPods-PerseDemo.a */; };
+		EC95A61D74ECD7D73BEE49F7 /* libPods-PerseDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8D70F5EB03490C1A53E5B9 /* libPods-PerseDemoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,9 +47,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CBB97A643E3B066971AFBEC /* libPods-PerseDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PerseDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		385AE6EC5ECF668DA435EF9C /* Pods-PerseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemo.release.xcconfig"; path = "Target Support Files/Pods-PerseDemo/Pods-PerseDemo.release.xcconfig"; sourceTree = "<group>"; };
-		4A1E8197F858A9CA5D2B3EC5 /* Pods-PerseDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemoTests.release.xcconfig"; path = "Target Support Files/Pods-PerseDemoTests/Pods-PerseDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		5C06E54725D1F09A00E6770F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		5C06E5A925D1FBC500E6770F /* Perse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Perse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C0D7B572656C9CB00A24232 /* human2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = human2.jpeg; sourceTree = "<group>"; };
@@ -57,20 +55,22 @@
 		5C29525326543179008E35F7 /* dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpeg; sourceTree = "<group>"; };
 		5C29527D26543FEB008E35F7 /* FileUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUtils.swift; sourceTree = "<group>"; };
 		5C29528126544A7B008E35F7 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
-		5C38E9FD265D5CB500922B91 /* PerseFaceDetectWithDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseFaceDetectWithDataTests.swift; sourceTree = "<group>"; };
+		5C38E9FD265D5CB500922B91 /* FaceDetectWithDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectWithDataTests.swift; sourceTree = "<group>"; };
 		5C38EA05265D601B00922B91 /* DataUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUtils.swift; sourceTree = "<group>"; };
-		5C38EA11265D69C300922B91 /* PerseFaceCompareWithDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseFaceCompareWithDataTests.swift; sourceTree = "<group>"; };
+		5C38EA11265D69C300922B91 /* FaceCompareWithDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCompareWithDataTests.swift; sourceTree = "<group>"; };
 		5C41242826554C8C00C02049 /* PerseUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseUtils.swift; sourceTree = "<group>"; };
-		5C412452265594DA00C02049 /* PerseFaceCompareWithFileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseFaceCompareWithFileTests.swift; sourceTree = "<group>"; };
+		5C412452265594DA00C02049 /* FaceCompareWithFileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCompareWithFileTests.swift; sourceTree = "<group>"; };
 		5C73AAD42681184E0028435B /* PerseCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseCameraViewController.swift; sourceTree = "<group>"; };
 		5C97A92A26CAE6CF00068625 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		5CB416AA2652F08E00B7D1EC /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		5CD60F1026D80D6300F4D995 /* FaceEnrollmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceEnrollmentTests.swift; sourceTree = "<group>"; };
 		5CE123D7264AF36600D484A1 /* FileUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtils.swift; sourceTree = "<group>"; };
 		5CE123EC264B087800D484A1 /* PerseCompareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseCompareViewController.swift; sourceTree = "<group>"; };
 		5CE1241B264C0F4E00D484A1 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		5CF64E672653F51F004763E3 /* PerseDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerseDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CF64E712653F546004763E3 /* PerseFaceDetectWithFileTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerseFaceDetectWithFileTests.swift; sourceTree = "<group>"; };
+		5CF64E712653F546004763E3 /* FaceDetectWithFileTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceDetectWithFileTests.swift; sourceTree = "<group>"; };
 		5CF64E732653F555004763E3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E8D70F5EB03490C1A53E5B9 /* libPods-PerseDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PerseDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6176EFBE252E496D00F4D4DD /* PerseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6176EFC1252E496D00F4D4DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6176EFC3252E496D00F4D4DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,9 +79,11 @@
 		6176EFCD252E496F00F4D4DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6176EFCF252E496F00F4D4DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6176EFDB252E4A9100F4D4DD /* PerseDetectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerseDetectViewController.swift; sourceTree = "<group>"; };
-		73D29A424BBE7CCBA0A5C2B5 /* libPods-PerseDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PerseDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CD26D500117CC19394F1CA9 /* Pods-PerseDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-PerseDemoTests/Pods-PerseDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A18ABC2DA27AF94BFF4175F3 /* Pods-PerseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemo.debug.xcconfig"; path = "Target Support Files/Pods-PerseDemo/Pods-PerseDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A1B2A8C6A6E8EADA1C2CEA30 /* libPods-PerseDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PerseDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66503A74A8AF4532EB87C4C /* Pods-PerseDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-PerseDemoTests/Pods-PerseDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD1C3C91F0EE71FDD07657C4 /* Pods-PerseDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemoTests.release.xcconfig"; path = "Target Support Files/Pods-PerseDemoTests/Pods-PerseDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D35375D43E27A39E1BF69A7B /* Pods-PerseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemo.release.xcconfig"; path = "Target Support Files/Pods-PerseDemo/Pods-PerseDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D91A3BFDC6EF6F1B7638B3D1 /* Pods-PerseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseDemo.debug.xcconfig"; path = "Target Support Files/Pods-PerseDemo/Pods-PerseDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BCB86084333FA5413782255 /* libPods-PerseDemoTests.a in Frameworks */,
+				EC95A61D74ECD7D73BEE49F7 /* libPods-PerseDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E09979052B946FDEE970C19E /* libPods-PerseDemo.a in Frameworks */,
+				5607017B91207F0E0D0D4CE9 /* libPods-PerseDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,14 +122,15 @@
 			children = (
 				5CF64E732653F555004763E3 /* Info.plist */,
 				5C2952522654316E008E35F7 /* Assets */,
-				5C412452265594DA00C02049 /* PerseFaceCompareWithFileTests.swift */,
-				5C38EA11265D69C300922B91 /* PerseFaceCompareWithDataTests.swift */,
+				5C412452265594DA00C02049 /* FaceCompareWithFileTests.swift */,
+				5C38EA11265D69C300922B91 /* FaceCompareWithDataTests.swift */,
 				5C41242826554C8C00C02049 /* PerseUtils.swift */,
 				5C29527D26543FEB008E35F7 /* FileUtils.swift */,
 				5C29528126544A7B008E35F7 /* Environment.swift */,
-				5C38E9FD265D5CB500922B91 /* PerseFaceDetectWithDataTests.swift */,
-				5CF64E712653F546004763E3 /* PerseFaceDetectWithFileTests.swift */,
+				5C38E9FD265D5CB500922B91 /* FaceDetectWithDataTests.swift */,
+				5CF64E712653F546004763E3 /* FaceDetectWithFileTests.swift */,
 				5C38EA05265D601B00922B91 /* DataUtils.swift */,
+				5CD60F1026D80D6300F4D995 /* FaceEnrollmentTests.swift */,
 			);
 			path = PerseDemoTests;
 			sourceTree = "<group>";
@@ -176,10 +179,10 @@
 		E43515AC47E0279330A1606A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A18ABC2DA27AF94BFF4175F3 /* Pods-PerseDemo.debug.xcconfig */,
-				385AE6EC5ECF668DA435EF9C /* Pods-PerseDemo.release.xcconfig */,
-				8CD26D500117CC19394F1CA9 /* Pods-PerseDemoTests.debug.xcconfig */,
-				4A1E8197F858A9CA5D2B3EC5 /* Pods-PerseDemoTests.release.xcconfig */,
+				D91A3BFDC6EF6F1B7638B3D1 /* Pods-PerseDemo.debug.xcconfig */,
+				D35375D43E27A39E1BF69A7B /* Pods-PerseDemo.release.xcconfig */,
+				A66503A74A8AF4532EB87C4C /* Pods-PerseDemoTests.debug.xcconfig */,
+				BD1C3C91F0EE71FDD07657C4 /* Pods-PerseDemoTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -188,8 +191,8 @@
 			isa = PBXGroup;
 			children = (
 				5C06E5A925D1FBC500E6770F /* Perse.framework */,
-				1CBB97A643E3B066971AFBEC /* libPods-PerseDemo.a */,
-				73D29A424BBE7CCBA0A5C2B5 /* libPods-PerseDemoTests.a */,
+				A1B2A8C6A6E8EADA1C2CEA30 /* libPods-PerseDemo.a */,
+				5E8D70F5EB03490C1A53E5B9 /* libPods-PerseDemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -201,11 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CF64E702653F51F004763E3 /* Build configuration list for PBXNativeTarget "PerseDemoTests" */;
 			buildPhases = (
-				528F8B536844877A653375ED /* [CP] Check Pods Manifest.lock */,
+				2652B4E1CF16B4C0C402BF78 /* [CP] Check Pods Manifest.lock */,
 				5CF64E632653F51F004763E3 /* Sources */,
 				5CF64E642653F51F004763E3 /* Frameworks */,
 				5CF64E652653F51F004763E3 /* Resources */,
-				A47D6E1DCE23CA5409969DB3 /* [CP] Copy Pods Resources */,
+				B9E24005BCA1E8B2781C00D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,11 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6176EFD2252E496F00F4D4DD /* Build configuration list for PBXNativeTarget "PerseDemo" */;
 			buildPhases = (
-				594C9117A0C58E067B175EF8 /* [CP] Check Pods Manifest.lock */,
+				D731D9262804690AE6BA3C41 /* [CP] Check Pods Manifest.lock */,
 				6176EFBA252E496D00F4D4DD /* Sources */,
 				6176EFBB252E496D00F4D4DD /* Frameworks */,
 				6176EFBC252E496D00F4D4DD /* Resources */,
-				DA67A1B50B0019AE4A256998 /* [CP] Copy Pods Resources */,
+				204713C8450333812368F684 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,7 +302,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		528F8B536844877A653375ED /* [CP] Check Pods Manifest.lock */ = {
+		204713C8450333812368F684 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PerseDemo/Pods-PerseDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PerseDemo/Pods-PerseDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PerseDemo/Pods-PerseDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2652B4E1CF16B4C0C402BF78 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,7 +341,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		594C9117A0C58E067B175EF8 /* [CP] Check Pods Manifest.lock */ = {
+		B9E24005BCA1E8B2781C00D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PerseDemoTests/Pods-PerseDemoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PerseDemoTests/Pods-PerseDemoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PerseDemoTests/Pods-PerseDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D731D9262804690AE6BA3C41 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -343,40 +380,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A47D6E1DCE23CA5409969DB3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PerseDemoTests/Pods-PerseDemoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PerseDemoTests/Pods-PerseDemoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PerseDemoTests/Pods-PerseDemoTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DA67A1B50B0019AE4A256998 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PerseDemo/Pods-PerseDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PerseDemo/Pods-PerseDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PerseDemo/Pods-PerseDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -384,13 +387,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CF64E722653F546004763E3 /* PerseFaceDetectWithFileTests.swift in Sources */,
-				5C38E9FE265D5CB500922B91 /* PerseFaceDetectWithDataTests.swift in Sources */,
+				5CF64E722653F546004763E3 /* FaceDetectWithFileTests.swift in Sources */,
+				5C38E9FE265D5CB500922B91 /* FaceDetectWithDataTests.swift in Sources */,
 				5C29528226544A7B008E35F7 /* Environment.swift in Sources */,
 				5C38EA06265D601B00922B91 /* DataUtils.swift in Sources */,
-				5C38EA12265D69C300922B91 /* PerseFaceCompareWithDataTests.swift in Sources */,
+				5C38EA12265D69C300922B91 /* FaceCompareWithDataTests.swift in Sources */,
 				5C29527E26543FEB008E35F7 /* FileUtils.swift in Sources */,
-				5C412453265594DA00C02049 /* PerseFaceCompareWithFileTests.swift in Sources */,
+				5CD60F1126D80D6400F4D995 /* FaceEnrollmentTests.swift in Sources */,
+				5C412453265594DA00C02049 /* FaceCompareWithFileTests.swift in Sources */,
 				5C41242926554C8C00C02049 /* PerseUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,7 +446,7 @@
 /* Begin XCBuildConfiguration section */
 		5CF64E6E2653F51F004763E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CD26D500117CC19394F1CA9 /* Pods-PerseDemoTests.debug.xcconfig */;
+			baseConfigurationReference = A66503A74A8AF4532EB87C4C /* Pods-PerseDemoTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2B682PKZVS;
@@ -463,7 +467,7 @@
 		};
 		5CF64E6F2653F51F004763E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A1E8197F858A9CA5D2B3EC5 /* Pods-PerseDemoTests.release.xcconfig */;
+			baseConfigurationReference = BD1C3C91F0EE71FDD07657C4 /* Pods-PerseDemoTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2B682PKZVS;
@@ -606,7 +610,7 @@
 		};
 		6176EFD3252E496F00F4D4DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A18ABC2DA27AF94BFF4175F3 /* Pods-PerseDemo.debug.xcconfig */;
+			baseConfigurationReference = D91A3BFDC6EF6F1B7638B3D1 /* Pods-PerseDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -628,7 +632,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.2;
+				MARKETING_VERSION = 0.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ai.cyberlabs.persedemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -639,7 +643,7 @@
 		};
 		6176EFD4252E496F00F4D4DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 385AE6EC5ECF668DA435EF9C /* Pods-PerseDemo.release.xcconfig */;
+			baseConfigurationReference = D35375D43E27A39E1BF69A7B /* Pods-PerseDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -661,7 +665,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.2;
+				MARKETING_VERSION = 0.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ai.cyberlabs.persedemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

@@ -19,7 +19,7 @@ public protocol PerseEventListener {
         _ count: Int,
         _ total: Int,
         _ imagePath: String,
-        _ detectResponse: DetectResponse?
+        _ detectResponse: PerseAPIResponse.Face.Detect?
     )
 
     func onFaceDetected(

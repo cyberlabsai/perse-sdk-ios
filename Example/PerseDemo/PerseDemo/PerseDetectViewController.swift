@@ -115,7 +115,7 @@ class PerseDetectViewController:
                 detectResponse.totalFaces
             ))
 
-            guard let faces = detectResponse.faces as Array<FaceResponse>? else {
+            guard let faces = detectResponse.faces as Array<PerseAPIResponse.Face.Face>? else {
                 return
             }
 
