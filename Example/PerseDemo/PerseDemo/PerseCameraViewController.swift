@@ -15,9 +15,9 @@ class PerseCameraViewController:
     @IBOutlet var horizontalMovementLabel: UILabel!
     @IBOutlet var verticalMovementLabel: UILabel!
     @IBOutlet var tiltMovementLabel: UILabel!
-    @IBOutlet var faceUnderexposeIcon: UIImageView!
+    @IBOutlet var faceUnderexposureIcon: UIImageView!
     @IBOutlet var faceSharpnessIcon: UIImageView!
-    @IBOutlet var imageUnderexposeIcon: UIImageView!
+    @IBOutlet var imageUnderexposureIcon: UIImageView!
     @IBOutlet var imageSharpnessIcon: UIImageView!
     var image: UIImage?
         
@@ -66,9 +66,9 @@ class PerseCameraViewController:
         let face: PerseAPIResponse.Face.Face = detectResponse.faces[0]
         
         self.setSpoofingValidation(valid: face.livenessScore >= detectResponse.defaultThresholds.liveness)
-        self.faceUnderexposeIcon.validate(valid: face.faceMetrics.underexposure > detectResponse.defaultThresholds.underexposure)
+        self.faceUnderexposureIcon.validate(valid: face.faceMetrics.underexposure > detectResponse.defaultThresholds.underexposure)
         self.faceSharpnessIcon.validate(valid: face.faceMetrics.sharpness < detectResponse.defaultThresholds.sharpness)
-        self.imageUnderexposeIcon.validate(valid: detectResponse.imageMetrics.underexposure > detectResponse.defaultThresholds.underexposure)
+        self.imageUnderexposureIcon.validate(valid: detectResponse.imageMetrics.underexposure > detectResponse.defaultThresholds.underexposure)
         self.imageSharpnessIcon.validate(valid: detectResponse.imageMetrics.sharpness < detectResponse.defaultThresholds.sharpness)
     }
     
@@ -193,9 +193,9 @@ class PerseCameraViewController:
         self.horizontalMovementLabel.text = "-"
         self.verticalMovementLabel.text = "-"
         self.tiltMovementLabel.text = "-"
-        self.faceUnderexposeIcon.reset()
+        self.faceUnderexposureIcon.reset()
         self.faceSharpnessIcon.reset()
-        self.imageUnderexposeIcon.reset()
+        self.imageUnderexposureIcon.reset()
         self.imageSharpnessIcon.reset()
         self.perseCamera.setDetectionBoxColor(0, 1, 1, 1)
         self.perseCamera.setFaceContoursColor(0, 1, 1, 1)
