@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "Perse/src/**/*", "Classes", "Classes/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
   spec.dependency 'Alamofire', '~> 5.2'
-  spec.dependency 'PerseLite', '~> 0.3.0'
+  spec.dependency 'PerseLite', '~> 0.3.1'
   spec.dependency 'YoonitCamera'
   
   spec.static_framework = true

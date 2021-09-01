@@ -55,7 +55,7 @@ PODS:
     - nanopb/encode (= 2.30908.0)
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
-  - PerseLite (0.3.0):
+  - PerseLite (0.3.1):
     - Alamofire (~> 5.2)
   - PromisesObjC (2.0.0)
   - Protobuf (3.17.0)
@@ -65,7 +65,7 @@ PODS:
     - GoogleMLKit/FaceDetection
 
 DEPENDENCIES:
-  - PerseLite (from `../perse-sdk-lite-ios`)
+  - PerseLite (~> 0.3.1)
   - YoonitCamera
 
 SPEC REPOS:
@@ -82,14 +82,11 @@ SPEC REPOS:
     - MLKitFaceDetection
     - MLKitVision
     - nanopb
+    - PerseLite
     - PromisesObjC
     - Protobuf
     - YoonitCamera
     - YoonitFacefy
-
-EXTERNAL SOURCES:
-  PerseLite:
-    :path: "../perse-sdk-lite-ios"
 
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
@@ -104,12 +101,12 @@ SPEC CHECKSUMS:
   MLKitFaceDetection: 897f007aa4eb426ef1bac7c66e5451d02ffc2e83
   MLKitVision: 26da299aef93291f24f5200e8372919f73abf3b5
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
-  PerseLite: 5a89c7a3f5528651c7e421ff97932039e842a2d4
+  PerseLite: 3a81800c4ab26d4dea3b17a73cfa593fb0506e52
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
   Protobuf: 7327d4444215b5f18e560a97f879ff5503c4581c
   YoonitCamera: eacfd2924f0838f895e6617fcf668e52ada4717f
   YoonitFacefy: 2a583328b5cfd74a2bea98e416038091a8b1ec55
 
-PODFILE CHECKSUM: ce388eca205ff1a50bc0b5b3f292e372ad69241f
+PODFILE CHECKSUM: eba5e7eeb636315bc30867b9a9a0ee4e2ff3e573
 
 COCOAPODS: 1.10.1
